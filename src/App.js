@@ -33,6 +33,15 @@ const App = () => {
         },
       ]
     }
+    {
+      "name" : "Dragon",
+      "champions" : [
+        {
+          "champ_name" : "Aurelion Sol",
+          "img" : "https://www.mobafire.com/images/avatars/aurelionsol-classic.png"
+        }<
+      ]
+    }
   ]
   return (
     <div>
