@@ -7,6 +7,86 @@ const App = () => {
 
   const [champs, setChamps] = useState([])
 
+  const champlist = [
+    {
+      "champ_name": "Darius",
+      "img": "",
+      "origin": ["Imperial"],
+      "class": ["Knight"],
+      "tier": 1
+    },
+    {
+      "champ_name": "Fiora",
+      "img": "",
+      "origin": ["Noble"],
+      "class": ["Blademaster"],
+      "tier": 1
+    },
+    {
+      "champ_name": "Garen",
+      "img": "",
+      "origin": ["Noble"],
+      "class": ["Knight"],
+      "tier": 1
+    },
+    {
+      "champ_name": "Graves",
+      "img": "",
+      "origin": ["Pirate"],
+      "class": ["Gunslinger"],
+      "tier": 1
+    },
+    {
+      "champ_name": "Kassadin",
+      "img": "",
+      "origin": ["Void"],
+      "class": ["Sorcerer"],
+      "tier": 1
+    },
+    {
+      "champ_name": "Kha'Zix",
+      "img": "",
+      "origin": ["Void"],
+      "class": ["Assassin"],
+      "tier": 1
+    },
+    {
+      "champ_name": "Mordekaiser",
+      "img": "",
+      "origin": ["Phantom"],
+      "class": ["Knight"],
+      "tier": 1
+    },
+    {
+      "champ_name": "Nidalee",
+      "img": "",
+      "origin": ["Wild"],
+      "class": ["Shapeshifter"],
+      "tier": 1
+    },
+    {
+      "champ_name": "Tristana",
+      "img": "",
+      "origin": ["Yordle"],
+      "class": ["Gunslinger"],
+      "tier": 1
+    },
+    {
+      "champ_name": "Vayne",
+      "img": "",
+      "origin": ["Noble"],
+      "class": ["Ranger"],
+      "tier": 1
+    },
+    {
+      "champ_name": "Warwick",
+      "img": "",
+      "origin": ["Wild"],
+      "class": ["Brawler"],
+      "tier": 1
+    },
+  ]
+
   const classes = [
     {
       "name": "Demon",
