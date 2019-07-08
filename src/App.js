@@ -10,81 +10,354 @@ const App = () => {
   const champlist = [
     {
       "champ_name": "Darius",
-      "img": "",
+      "img": "https://www.mobafire.com/images/avatars/darius-classic.png",
       "origin": ["Imperial"],
       "class": ["Knight"],
       "tier": 1
     },
     {
       "champ_name": "Fiora",
-      "img": "",
+      "img": "https://www.mobafire.com/images/avatars/fiora-classic.png",
       "origin": ["Noble"],
       "class": ["Blademaster"],
       "tier": 1
     },
     {
       "champ_name": "Garen",
-      "img": "",
+      "img": "https://www.mobafire.com/images/avatars/garen-classic.png",
       "origin": ["Noble"],
       "class": ["Knight"],
       "tier": 1
     },
     {
       "champ_name": "Graves",
-      "img": "",
+      "img": "https://www.mobafire.com/images/avatars/graves-classic.png",
       "origin": ["Pirate"],
       "class": ["Gunslinger"],
       "tier": 1
     },
     {
       "champ_name": "Kassadin",
-      "img": "",
+      "img": "https://www.mobafire.com/images/avatars/kassadin-classic.png",
       "origin": ["Void"],
       "class": ["Sorcerer"],
       "tier": 1
     },
     {
       "champ_name": "Kha'Zix",
-      "img": "",
+      "img": "https://www.mobafire.com/images/avatars/khazix-classic.png",
       "origin": ["Void"],
       "class": ["Assassin"],
       "tier": 1
     },
     {
       "champ_name": "Mordekaiser",
-      "img": "",
+      "img": "https://www.mobafire.com/images/avatars/mordekaiser-classic.png",
       "origin": ["Phantom"],
       "class": ["Knight"],
       "tier": 1
     },
     {
       "champ_name": "Nidalee",
-      "img": "",
+      "img": "https://www.mobafire.com/images/avatars/nidalee-classic.png",
       "origin": ["Wild"],
       "class": ["Shapeshifter"],
       "tier": 1
     },
     {
       "champ_name": "Tristana",
-      "img": "",
+      "img": "https://www.mobafire.com/images/avatars/tristana-classic.png",
       "origin": ["Yordle"],
       "class": ["Gunslinger"],
       "tier": 1
     },
     {
       "champ_name": "Vayne",
-      "img": "",
+      "img": "https://www.mobafire.com/images/avatars/vayne-classic.png",
       "origin": ["Noble"],
       "class": ["Ranger"],
       "tier": 1
     },
     {
       "champ_name": "Warwick",
-      "img": "",
+      "img": "https://www.mobafire.com/images/avatars/warwick-classic.png",
       "origin": ["Wild"],
       "class": ["Brawler"],
       "tier": 1
     },
+    {
+      "champ_name": "Ahri",
+      "img": "https://www.mobafire.com/images/avatars/ahri-classic.png",
+      "origin": ["Wild"],
+      "class": ["Sorcerer"],
+      "tier": 2
+    },
+    {
+      "champ_name": "Blitzcrank",
+      "img": "https://www.mobafire.com/images/avatars/blitzcrank-classic.png",
+      "origin": ["Robot"],
+      "class": ["Brawler"],
+      "tier": 2
+    },
+    {
+      "champ_name": "Braum",
+      "img": "https://www.mobafire.com/images/avatars/braum-classic.png",
+      "origin": ["Glacial"],
+      "class": ["Guardian"],
+      "tier": 2
+    },
+    {
+      "champ_name": "Elise",
+      "img": "https://www.mobafire.com/images/avatars/elise-classic.png",
+      "origin": ["Demon"],
+      "class": ["Shapeshifter"],
+      "tier": 2
+    },
+    {
+      "champ_name": "Lissandra",
+      "img": "https://www.mobafire.com/images/avatars/lissandra-classic.png",
+      "origin": ["Glacial"],
+      "class": ["Elementalist"],
+      "tier": 2
+    },
+    {
+      "champ_name": "Lucian",
+      "img": "https://www.mobafire.com/images/avatars/lucian-classic.png",
+      "origin": ["Noble"],
+      "class": ["Gunslinger"],
+      "tier": 2
+    },
+    {
+      "champ_name": "Lulu",
+      "img": "https://www.mobafire.com/images/avatars/lulu-classic.png",
+      "origin": ["Yordle"],
+      "class": ["Sorcerer"],
+      "tier": 2
+    },
+    {
+      "champ_name": "Pyke",
+      "img": "https://www.mobafire.com/images/avatars/pyke-classic.png",
+      "origin": ["Pirate"],
+      "class": ["Assassin"],
+      "tier": 2
+    },
+    {
+      "champ_name": "Rek'Sai",
+      "img": "https://www.mobafire.com/images/avatars/reksai-classic.png",
+      "origin": ["Void"],
+      "class": ["Brawler"],
+      "tier": 2
+    },
+    {
+      "champ_name": "Shen",
+      "img": "https://www.mobafire.com/images/avatars/shen-classic.png",
+      "origin": ["Ninja"],
+      "class": ["Blademaster"],
+      "tier": 2
+    },
+    {
+      "champ_name": "Varus",
+      "img": "https://www.mobafire.com/images/avatars/varus-classic.png",
+      "origin": ["Demon"],
+      "class": ["Ranger"],
+      "tier": 2
+    },
+    {
+      "champ_name": "Zed",
+      "img": "https://www.mobafire.com/images/avatars/zed-classic.png",
+      "origin": ["Ninja"],
+      "class": ["Assassin"],
+      "tier": 2
+    },
+    {
+      "champ_name": "Aatrox",
+      "img": "https://www.mobafire.com/images/avatars/aatrox-classic.png",
+      "origin": ["Demon"],
+      "class": ["Blademaster"],
+      "tier": 3
+    },
+    {
+      "champ_name": "Ashe",
+      "img": "https://www.mobafire.com/images/avatars/ashe-classic.png",
+      "origin": ["Glacial"],
+      "class": ["Ranger"],
+      "tier": 3
+    },
+    {
+      "champ_name": "Evelynn",
+      "img": "https://www.mobafire.com/images/avatars/evelynn-classic.png",
+      "origin": ["Demon"],
+      "class": ["Assassin"],
+      "tier": 3
+    },
+    {
+      "champ_name": "Gangplank",
+      "img": "https://www.mobafire.com/images/avatars/gangplank-classic.png",
+      "origin": ["Pirate"],
+      "class": ["Blademaster", "Gunslinger"],
+      "tier": 3
+    },
+    {
+      "champ_name": "Katarina",
+      "img": "https://www.mobafire.com/images/avatars/katarina-classic.png",
+      "origin": ["Imperial"],
+      "class": ["Assassin"],
+      "tier": 3
+    },
+    {
+      "champ_name": "Kennen",
+      "img": "https://www.mobafire.com/images/avatars/kennen-classic.png",
+      "origin": ["Ninja", "Yordle"],
+      "class": ["Elementalist"],
+      "tier": 3
+    },
+    {
+      "champ_name": "Morgana",
+      "img": "https://www.mobafire.com/images/avatars/morgana-classic.png",
+      "origin": ["Demon"],
+      "class": ["Sorcerer"],
+      "tier": 3
+    },
+    {
+      "champ_name": "Poppy",
+      "img": "https://www.mobafire.com/images/avatars/poppy-classic.png",
+      "origin": ["Yordle"],
+      "class": ["Knight"],
+      "tier": 3
+    },
+    {
+      "champ_name": "Rengar",
+      "img": "https://www.mobafire.com/images/avatars/rengar-classic.png",
+      "origin": ["Wild"],
+      "class": ["Assassin"],
+      "tier": 3
+    },
+    {
+      "champ_name": "Shyvana",
+      "img": "https://www.mobafire.com/images/avatars/shyvana-classic.png",
+      "origin": ["Dragon"],
+      "class": ["Shapeshifter"],
+      "tier": 3
+    },
+    {
+      "champ_name": "Veigar",
+      "img": "https://www.mobafire.com/images/avatars/veigar-classic.png",
+      "origin": ["Yordle"],
+      "class": ["Sorcerer"],
+      "tier": 3
+    },
+    {
+      "champ_name": "Volibear",
+      "img": "https://www.mobafire.com/images/avatars/volibear-classic.png",
+      "origin": ["Glacial"],
+      "class": ["Brawler"],
+      "tier": 3
+    },
+    {
+      "champ_name": "Akali",
+      "img": "https://www.mobafire.com/images/avatars/akali-classic.png",
+      "origin": ["Ninja"],
+      "class": ["Assassin"],
+      "tier": 4
+    },
+    {
+      "champ_name": "Aurelion Sol",
+      "img": "https://www.mobafire.com/images/avatars/aurelion-sol-classic.png",
+      "origin": ["Dragon"],
+      "class": ["Sorcerer"],
+      "tier": 4
+    },
+    {
+      "champ_name": "Brand",
+      "img": "https://www.mobafire.com/images/avatars/brand-classic.png",
+      "origin": ["Demon"],
+      "class": ["Elementalist"],
+      "tier": 4
+    },
+    {
+      "champ_name": "Cho'Gath",
+      "img": "https://www.mobafire.com/images/avatars/chogath-classic.png",
+      "origin": ["Void"],
+      "class": ["Brawler"],
+      "tier": 4
+    },
+    {
+      "champ_name": "Draven",
+      "img": "https://www.mobafire.com/images/avatars/draven-classic.png",
+      "origin": ["Imperial"],
+      "class": ["Blademaster"],
+      "tier": 4
+    },
+    {
+      "champ_name": "Gnar",
+      "img": "https://www.mobafire.com/images/avatars/gnar-classic.png",
+      "origin": ["Wild", "Yordle"],
+      "class": ["Shapeshifter"],
+      "tier": 4
+    },
+    {
+      "champ_name": "Kindred",
+      "img": "https://www.mobafire.com/images/avatars/kindred-classic.png",
+      "origin": ["Phantom"],
+      "class": ["Ranger"],
+      "tier": 4
+    },
+    {
+      "champ_name": "Leona",
+      "img": "https://www.mobafire.com/images/avatars/leona-classic.png",
+      "origin": ["Noble"],
+      "class": ["Guardian"],
+      "tier": 4
+    },
+    {
+      "champ_name": "Sejuani",
+      "img": "https://www.mobafire.com/images/avatars/sejuani-classic.png",
+      "origin": ["Glacial"],
+      "class": ["Knight"],
+      "tier": 4
+    },
+    {
+      "champ_name": "Anivia",
+      "img": "https://www.mobafire.com/images/avatars/anivia-classic.png",
+      "origin": ["Glacial"],
+      "class": ["Elementalist"],
+      "tier": 5
+    },
+    {
+      "champ_name": "Karthus",
+      "img": "https://www.mobafire.com/images/avatars/karthus-classic.png",
+      "origin": ["Phantom"],
+      "class": ["Sorcerer"],
+      "tier": 5
+    },
+    {
+      "champ_name": "Kayle",
+      "img": "https://www.mobafire.com/images/avatars/kayle-classic.png",
+      "origin": ["Noble"],
+      "class": ["Knight"],
+      "tier": 5
+    },
+    {
+      "champ_name": "Miss Fortune",
+      "img": "https://www.mobafire.com/images/avatars/miss-fortune-classic.png",
+      "origin": ["Pirate"],
+      "class": ["Gunslinger"],
+      "tier": 5
+    },
+    {
+      "champ_name": "Swain",
+      "img": "https://www.mobafire.com/images/avatars/swain-classic.png",
+      "origin": ["Imperial", "Demon"],
+      "class": ["Shapeshifter"],
+      "tier": 5
+    },
+    {
+      "champ_name": "Yasuo",
+      "img": "https://www.mobafire.com/images/avatars/yasuo-classic.png",
+      "origin": ["Exile"],
+      "class": ["Blademaster"],
+      "tier": 5
+    }
   ]
 
   const classes = [
