@@ -1,3 +1,4 @@
+
 import React from 'react'
 import ChampDisplay from './ChampDisplay'
 const ClassDisplay = ({ classes }) => {
