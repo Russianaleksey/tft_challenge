@@ -3,10 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "gh-pages": "^2.0.1",
-=======
->>>>>>> 564294359966e2e6f56c21b41de352c7ec18416c
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -32,8 +29,4 @@
       "last 1 safari version"
     ]
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 564294359966e2e6f56c21b41de352c7ec18416c
