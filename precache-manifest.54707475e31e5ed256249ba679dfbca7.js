@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30d9b960ae03b461592513f9416fc4bb",
+    "revision": "8265b5b383a7c79e49823268e311e580",
     "url": "/tft_challenge/index.html"
   },
   {
-    "revision": "6164e1dfce114fddf222",
-    "url": "/tft_challenge/static/css/main.797c576c.chunk.css"
+    "revision": "7eb77afb5642a47155f1",
+    "url": "/tft_challenge/static/css/main.bb8301c1.chunk.css"
   },
   {
     "revision": "407ab141deba78abe319",
     "url": "/tft_challenge/static/js/2.d042e1ad.chunk.js"
   },
   {
-    "revision": "6164e1dfce114fddf222",
-    "url": "/tft_challenge/static/js/main.28595eea.chunk.js"
+    "revision": "7eb77afb5642a47155f1",
+    "url": "/tft_challenge/static/js/main.4805d1e4.chunk.js"
   },
   {
     "revision": "12f640328a49b95c0b22",
