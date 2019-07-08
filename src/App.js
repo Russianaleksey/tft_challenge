@@ -469,7 +469,7 @@ const App = () => {
         },
         {
           "champ_name": "Kayle",
-          "img": "https://www.mobafire.com/images/avatars/lucian-classic.png"
+          "img": "https://www.mobafire.com/images/avatars/kayle-classic.png"
         },
         {
           "champ_name": "Mordekaiser",
@@ -591,7 +591,7 @@ const App = () => {
         <button onClick={() => selectRandom()} className="btn select-random-btn">SELECT RANDOM</button>
       </div>
       {/* <ClassDisplay classes={classes} /> */}
-      <div className="random-champ-display">
+      <div className="champ-display-container">
         {champs.map(({ champ_name, img }) => {
           return (
             <ChampDisplay champ_name={champ_name} img={img} />

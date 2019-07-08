@@ -50,9 +50,29 @@
   transform: translateY(4px);
 }
 
-.random-champ-display {
-  display: inline-flex;
-  width: 80%;
-  justify-content: space-between;
-  margin-top: 15%;
+.champ-display-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8%;
+  flex-direction: row;
 }
+
+.champ-display {
+  margin: 2px;
+  padding: 10px;
+  text-align: center;
+  color: #353551;
+  font-size: 2rem;
+}
+
+.champ-card-image {
+  margin-top: 10px;
+  border: 3px solid #9e6c36;
+}
+
+.champ-display :hover {
+  transform: scale(1.1);
+  transition: all .5s ease;
+}
+
+
