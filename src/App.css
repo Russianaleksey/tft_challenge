@@ -59,11 +59,12 @@
 
 .champ-display {
   margin: 2px;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   color: #353551;
   font-size: 2rem;
   max-width: 100%;
+  border-radius: 5%;
 }
 
 .champ-card-image {
@@ -72,6 +73,7 @@
   object-fit: contain;
   max-width: 100%;
   max-height: 100%;
+  border-radius: 100%;
 }
 
 .champ-display :hover {
