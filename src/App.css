@@ -53,10 +53,11 @@
 
 .champ-display-container {
   display: flex;
-  height: 60vh;
+  height: auto;
   flex-flow: row nowrap;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  margin-top: 20vh;
+  justify-items: auto;
   width: 100vw;
   border: 0.3vmin solid #9e6c36;
 }
@@ -69,7 +70,6 @@
   font-size: 1.25vmin;
   width: 12vw;
   flex-grow: 1;
-  height: 32vh;
   border: 0.3vmin solid #9e6c36;
 }
 
