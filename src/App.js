@@ -47,7 +47,7 @@ const App = () => {
       "champ_name": "Kha'Zix",
       "img": "https://www.mobafire.com/images/avatars/khazix-classic.png",
       "origin": ["Void"],
-      "class": ["Assassin"],
+      "champ_class": ["Assassin"],
       "tier": 1
     },
     {

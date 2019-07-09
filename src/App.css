@@ -1,5 +1,4 @@
-
-* {
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,35 +6,37 @@
 
 .main-title {
   text-align: center;
-  padding-top: 2rem;
-  letter-spacing: .5rem;
+  padding-top: 2vh; 
+  letter-spacing: .5vw;
   color: #9e6c36;
-  font-size: 3rem;
+  font-size: 5vh;
 }
 
 .btn {
   text-align: center;
   font-weight: 1000;
   font-style: normal;
-  letter-spacing: .1rem;
+  font-size: 3vh;
+  letter-spacing: .1vw;
   text-transform: uppercase;
-  display: inline-block;
+  display: block;
   background-color: #353551;
-  border-width: 3px;
+  border-width: 0.3vmin;
   cursor: pointer;
-  border: 3px solid #9e6c36;
+  border: 0.3vmin solid #9e6c36;
   color: #fff;
-  padding: 1rem;
+  padding: 1vh; 
 }
 
 .select-random-container {
-  padding: .5rem;
-  border-width: 3px;
+  padding: .5vh; 
+  border-width: 0.3vmin;
   position: absolute;
-  margin-top: 2.5rem;
+  margin-top: 2.5vh;
   left: 50%;
   transform: translateX(-50%);
-}
+  margin-bottom: 2.5vh; 
+} 
 
 
 .select-random-container :hover {
@@ -52,29 +53,53 @@
 
 .champ-display-container {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 8%;
-  flex-direction: row;
+  height: 60vh;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  border: 0.3vmin solid #9e6c36;
 }
 
 .champ-display {
-  margin: 2px;
-  padding: 10px;
+  margin: 0.5vw;
   text-align: center;
   color: #353551;
-  font-size: 2rem;
-  max-width: 100%;
+  flex-shrink: 1;
+  font-size: 1.25vmin;
+  width: 12vw;
+  flex-grow: 1;
+  height: 32vh;
+  border: 0.3vmin solid #9e6c36;
 }
 
 .champ-card-image {
-  margin-top: 10px;
-  border: 3px solid #9e6c36;
-  object-fit: contain;
   max-width: 100%;
   max-height: 100%;
-}
+  width: 11vw;
+} 
 
 .champ-display :hover {
   transform: scale(1.1);
   transition: all .5s ease;
 }
+
+.champ_tier_1 {
+  background-color: #847B6C;
+}
+
+.champ_tier_2 {
+  background-color: #4CC371;
+}
+
+.champ_tier_3 {
+  background-color: #3BAAB5;
+}
+
+.champ_tier_4 {
+  background-color: #E43CCD;
+}
+
+.champ_tier_5 {
+  background-color: #E88822;
+}  
