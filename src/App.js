@@ -386,7 +386,7 @@ const App = () => {
       <div className="champ-display-container">
         {champs.map(({ champ_name, img, origin, champ_class, tier }) => {
           return (
-            <ChampDisplay champ_name={champ_name} img={img} origin={origin} champ_class={champ_class} tier={tier}/>
+            <ChampDisplay champ_name={champ_name} img={img} origin={origin} champ_class={champ_class} tier={tier} />
           )
         })}
       </div>

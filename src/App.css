@@ -78,3 +78,23 @@
   transform: scale(1.1);
   transition: all .5s ease;
 }
+
+.champ_tier_1 {
+  background-color: #847B6C;
+}
+
+.champ_tier_2 {
+  background-color: #4CC371;
+}
+
+.champ_tier_3 {
+  background-color: #3BAAB5;
+}
+
+.champ_tier_4 {
+  background-color: #E43CCD;
+}
+
+.champ_tier_5 {
+  background-color: #E88822;
+}
