@@ -53,9 +53,10 @@
 
 .champ-display-container {
   display: flex;
-  height: 60vh;
+  height: auto;
+  margin-top: 20vh;
   flex-flow: row nowrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   width: 100vw;
   border: 0.3vmin solid #9e6c36;
@@ -69,13 +70,10 @@
   font-size: 1.25vmin;
   width: 12vw;
   flex-grow: 1;
-  height: 32vh;
   border: 0.3vmin solid #9e6c36;
 }
 
 .champ-card-image {
-  max-width: 100%;
-  max-height: 100%;
   width: 11vw;
 } 
 
