@@ -1,11 +1,14 @@
 
 import React from 'react'
 
-const ChampDisplay = ({ champ_name, img }) => {
+const ChampDisplay = ({ champ_name, img, origin, champ_class, tier }) => {
     return(
         <div className="champ-display">
             <h4>{champ_name}</h4>
             <img className="champ-card-image" src={img} />
+            {origin.map(e => <h4>{e}</h4>)}
+            {champ_class.map(e => <h4>{e}</h4>)}
+            <h4>{tier}</h4>
         </div>
     )
 }

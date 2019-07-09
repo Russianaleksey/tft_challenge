@@ -63,16 +63,18 @@
   text-align: center;
   color: #353551;
   font-size: 2rem;
+  max-width: 100%;
 }
 
 .champ-card-image {
   margin-top: 10px;
   border: 3px solid #9e6c36;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .champ-display :hover {
   transform: scale(1.1);
   transition: all .5s ease;
 }
-
-
