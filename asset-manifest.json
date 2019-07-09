@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tft_challenge/static/css/main.bd08a2b8.chunk.css",
+    "main.css": "/tft_challenge/static/css/main.225feef3.chunk.css",
     "main.js": "/tft_challenge/static/js/main.07a3ec77.chunk.js",
     "main.js.map": "/tft_challenge/static/js/main.07a3ec77.chunk.js.map",
     "runtime~main.js": "/tft_challenge/static/js/runtime~main.2ee6b358.js",
@@ -8,9 +8,9 @@
     "static/js/2.d042e1ad.chunk.js": "/tft_challenge/static/js/2.d042e1ad.chunk.js",
     "static/js/2.d042e1ad.chunk.js.map": "/tft_challenge/static/js/2.d042e1ad.chunk.js.map",
     "index.html": "/tft_challenge/index.html",
-    "precache-manifest.1b69a47f1bdcfbc8687a9f8085922af0.js": "/tft_challenge/precache-manifest.1b69a47f1bdcfbc8687a9f8085922af0.js",
+    "precache-manifest.cea0453ccdda1a98b5d4496a9641c73e.js": "/tft_challenge/precache-manifest.cea0453ccdda1a98b5d4496a9641c73e.js",
     "service-worker.js": "/tft_challenge/service-worker.js",
-    "static/css/main.bd08a2b8.chunk.css.map": "/tft_challenge/static/css/main.bd08a2b8.chunk.css.map",
+    "static/css/main.225feef3.chunk.css.map": "/tft_challenge/static/css/main.225feef3.chunk.css.map",
     "static/media/logo.svg": "/tft_challenge/static/media/logo.5d5d9eef.svg"
   }
 }
