@@ -1,4 +1,4 @@
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 .main-title {
   text-align: center;
-  padding-top: 2vh; 
+  padding-top: 4vh; 
   letter-spacing: .5vw;
   color: #9e6c36;
   font-size: 5vh;
@@ -16,7 +16,7 @@
   text-align: center;
   font-weight: 1000;
   font-style: normal;
-  font-size: 3vh;
+  font-size: 2vh;
   letter-spacing: .1vw;
   text-transform: uppercase;
   display: block;
@@ -54,28 +54,36 @@
 .champ-display-container {
   display: flex;
   height: auto;
-  margin-top: 20vh;
   flex-flow: row nowrap;
   align-items: stretch;
-  justify-content: center;
+  margin-top: 12vh;
+  justify-items: auto;
   width: 100vw;
   border: 0.3vmin solid #9e6c36;
 }
 
 .champ-display {
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
   margin: 0.5vw;
   text-align: center;
   color: #353551;
   flex-shrink: 1;
-  font-size: 1.25vmin;
+  font-size: 2vmin;
   width: 12vw;
   flex-grow: 1;
   border: 0.3vmin solid #9e6c36;
 }
 
 .champ-card-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 100%;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
   width: 11vw;
-} 
+  box-shadow: 0px 0px 3vmin rgb(0, 0, 0);
+}
 
 .champ-display :hover {
   transform: scale(1.1);
@@ -83,7 +91,9 @@
 }
 
 .champ_tier_1 {
-  background-color: #847B6C;
+  background-image: url("https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1092580.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .champ_tier_2 {
