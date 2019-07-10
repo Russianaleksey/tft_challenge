@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import ClassDisplay from './Components/ClassDisplay'
 import ChampDisplay from './Components/ChampDisplay'
 const App = () => {
