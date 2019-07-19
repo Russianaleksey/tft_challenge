@@ -90,24 +90,29 @@
   transition: all .5s ease;
 }
 
-.champ_tier_1 {
-  background-image: url("https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1092580.jpg");
+.champ_tier {
+  opacity: 0.8;
+  background-color: red;
+  &:_1 {
+    background-color: brown;
+  }
+  &:_2 {
+    background-color: #4CC371;
+  }
+  &:_3 {
+    background-color: #3BAAB5;
+  }
+  &:_4 {
+    background-color: #E43CCD;
+  }
+  &:_5 {
+    background-color: #E88822;
+  }
+}
+
+.main-container {
+  background-image: linear-gradient(to right bottom, rgba(34, 193, 195, 0.7), rgba(253, 187, 45, 0.7)), url('./images/main-background.jpg');
   background-size: cover;
-  background-position: center;
+  height: 100%;
+  width: 100%;
 }
-
-.champ_tier_2 {
-  background-color: #4CC371;
-}
-
-.champ_tier_3 {
-  background-color: #3BAAB5;
-}
-
-.champ_tier_4 {
-  background-color: #E43CCD;
-}
-
-.champ_tier_5 {
-  background-color: #E88822;
-}  

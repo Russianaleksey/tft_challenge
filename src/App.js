@@ -377,7 +377,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div className="main-container">
       <h1 className="main-title">TFT BATTLE</h1>
       <div className="select-random-container">
         <button onClick={() => selectRandom()} className="btn select-random-btn">SELECT RANDOM</button>

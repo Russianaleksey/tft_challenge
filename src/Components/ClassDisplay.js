@@ -2,8 +2,6 @@
 import React from 'react'
 import ChampDisplay from './ChampDisplay'
 const ClassDisplay = ({ classes }) => {
-    
-
     return (
         <div>
             {classes.map(({ name, champions }) => {
