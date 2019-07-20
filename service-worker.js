@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tft_challenge/precache-manifest.959a754b64656e1db60ac8f53cc5f8a8.js"
+  "/tft_challenge/precache-manifest.88117f7ba7685b0a5eef676373d9bbe9.js"
 );
 
 self.addEventListener('message', (event) => {
