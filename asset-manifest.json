@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/tft_challenge/static/css/main.225feef3.chunk.css",
-    "main.js": "/tft_challenge/static/js/main.07a3ec77.chunk.js",
-    "main.js.map": "/tft_challenge/static/js/main.07a3ec77.chunk.js.map",
+    "main.css": "/tft_challenge/static/css/main.e137b55e.chunk.css",
+    "main.js": "/tft_challenge/static/js/main.eaf8d8f4.chunk.js",
+    "main.js.map": "/tft_challenge/static/js/main.eaf8d8f4.chunk.js.map",
     "runtime~main.js": "/tft_challenge/static/js/runtime~main.2ee6b358.js",
     "runtime~main.js.map": "/tft_challenge/static/js/runtime~main.2ee6b358.js.map",
-    "static/js/2.d042e1ad.chunk.js": "/tft_challenge/static/js/2.d042e1ad.chunk.js",
-    "static/js/2.d042e1ad.chunk.js.map": "/tft_challenge/static/js/2.d042e1ad.chunk.js.map",
+    "static/js/2.c824e9c9.chunk.js": "/tft_challenge/static/js/2.c824e9c9.chunk.js",
+    "static/js/2.c824e9c9.chunk.js.map": "/tft_challenge/static/js/2.c824e9c9.chunk.js.map",
     "index.html": "/tft_challenge/index.html",
-    "precache-manifest.cea0453ccdda1a98b5d4496a9641c73e.js": "/tft_challenge/precache-manifest.cea0453ccdda1a98b5d4496a9641c73e.js",
+    "precache-manifest.959a754b64656e1db60ac8f53cc5f8a8.js": "/tft_challenge/precache-manifest.959a754b64656e1db60ac8f53cc5f8a8.js",
     "service-worker.js": "/tft_challenge/service-worker.js",
-    "static/css/main.225feef3.chunk.css.map": "/tft_challenge/static/css/main.225feef3.chunk.css.map",
-    "static/media/logo.svg": "/tft_challenge/static/media/logo.5d5d9eef.svg"
+    "static/css/main.e137b55e.chunk.css.map": "/tft_challenge/static/css/main.e137b55e.chunk.css.map",
+    "static/media/logo.svg": "/tft_challenge/static/media/logo.ee7cd8ed.svg",
+    "static/media/App.scss": "/tft_challenge/static/media/main-background.8eaac74e.jpg"
   }
 }
