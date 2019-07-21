@@ -15,8 +15,8 @@
 }
 
 .popup1 {
-  position: relative;
-  display: inline-block;
+  position: absolute;
+  display: block;
   cursor: pointer;
 }
 
@@ -137,7 +137,7 @@
 
 .champ-display :hover {
   transform: scale(1.1);
-  transition: all .5s ease;
+  transition: all .5s ease-in;
 }
 
 .champ_tier {

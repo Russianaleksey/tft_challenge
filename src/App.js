@@ -389,7 +389,6 @@ function popupFunction() {
   return (
     <div className="main-container">
       <h1 className="main-title">TFT BATTLE</h1>
-      <button onHover={() => showRules()} className="rulesBtn">RULES</button>
       <div class="popup1" onClick={() => popupFunction()}>RULES
         <span class="popuptext" id="myPopup">Challenge rules:
 To take the challenge, follow these steps:
