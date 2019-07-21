@@ -376,9 +376,27 @@ const App = () => {
     setChamps(holdArr)
   }
 
+  const showRules = () => {
+    return("hi")
+  }
+
+function popupFunction() {
+  var popup1 = document.getElementById("myPopup");
+  popup1.classList.toggle("show");
+}
+
+
   return (
     <div className="main-container">
       <h1 className="main-title">TFT BATTLE</h1>
+      <div class="popup1" onClick={() => popupFunction()}>RULES
+        <span class="popuptext" id="myPopup">Challenge rules:
+To take the challenge, follow these steps:
+1: Select the number of champions you want to have at the end of the game. 
+2: Roll/reroll your champions. 
+3: Play some TFT! 
+4: If you win (4th or higher) using the exact comp from your MOST RECENT ROLL, click "Roll Complete". If your most recent completed match had the comp from the most recent roll, you will be awarded points based on your placement in the match! Get as many points as you can to top the leaderboards!</span>
+      </div>
       <div className="select-random-container">
         <button onClick={() => selectRandom()} className="btn select-random-btn">SELECT RANDOM</button>
       </div>
