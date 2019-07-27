@@ -10,350 +10,350 @@ const App = () => {
   const champlist = [
     {
       "champ_name": "Darius",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Darius.JPG",
       "origin": ["Imperial"],
       "champ_class": ["Knight"],
       "tier": 1
     },
     {
       "champ_name": "Fiora",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Fiora.JPG",
       "origin": ["Noble"],
       "champ_class": ["Blademaster"],
       "tier": 1
     },
     {
       "champ_name": "Garen",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Garen.JPG",
       "origin": ["Noble"],
       "champ_class": ["Knight"],
       "tier": 1
     },
     {
       "champ_name": "Graves",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Graves.png",
       "origin": ["Pirate"],
       "champ_class": ["Gunslinger"],
       "tier": 1
     },
     {
       "champ_name": "Kassadin",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Kassadin.JPG",
       "origin": ["Void"],
       "champ_class": ["Sorcerer"],
       "tier": 1
     },
     {
       "champ_name": "Kha'Zix",
-      "img": "./images/Darius.JPG",
+      "img": "/images/KhaZix.JPG",
       "origin": ["Void"],
       "champ_class": ["Assassin"],
       "tier": 1
     },
     {
       "champ_name": "Mordekaiser",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Mordekaiser.png",
       "origin": ["Phantom"],
       "champ_class": ["Knight"],
       "tier": 1
     },
     {
       "champ_name": "Nidalee",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Nidalee.JPG",
       "origin": ["Wild"],
       "champ_class": ["Shapeshifter"],
       "tier": 1
     },
     {
       "champ_name": "Tristana",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Tristana.JPG",
       "origin": ["Yordle"],
       "champ_class": ["Gunslinger"],
       "tier": 1
     },
     {
       "champ_name": "Vayne",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Vayne.JPG",
       "origin": ["Noble"],
       "champ_class": ["Ranger"],
       "tier": 1
     },
     {
       "champ_name": "Warwick",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Warwick.png",
       "origin": ["Wild"],
       "champ_class": ["Brawler"],
       "tier": 1
     },
     {
       "champ_name": "Ahri",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Ahri.JPG",
       "origin": ["Wild"],
       "champ_class": ["Sorcerer"],
       "tier": 2
     },
     {
       "champ_name": "Blitzcrank",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Blitzcrank.JPG",
       "origin": ["Robot"],
       "champ_class": ["Brawler"],
       "tier": 2
     },
     {
       "champ_name": "Braum",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Braum.JPG",
       "origin": ["Glacial"],
       "champ_class": ["Guardian"],
       "tier": 2
     },
     {
       "champ_name": "Elise",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Elise.JPG",
       "origin": ["Demon"],
       "champ_class": ["Shapeshifter"],
       "tier": 2
     },
     {
       "champ_name": "Lissandra",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Lissandra.JPG",
       "origin": ["Glacial"],
       "champ_class": ["Elementalist"],
       "tier": 2
     },
     {
       "champ_name": "Lucian",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Lucian.JPG",
       "origin": ["Noble"],
       "champ_class": ["Gunslinger"],
       "tier": 2
     },
     {
       "champ_name": "Lulu",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Lulu.JPG",
       "origin": ["Yordle"],
       "champ_class": ["Sorcerer"],
       "tier": 2
     },
     {
       "champ_name": "Pyke",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Pyke.JPG",
       "origin": ["Pirate"],
       "champ_class": ["Assassin"],
       "tier": 2
     },
     {
       "champ_name": "Rek'Sai",
-      "img": "./images/Darius.JPG",
+      "img": "/images/RekSai.JPG",
       "origin": ["Void"],
       "champ_class": ["Brawler"],
       "tier": 2
     },
     {
       "champ_name": "Shen",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Shen.JPG",
       "origin": ["Ninja"],
       "champ_class": ["Blademaster"],
       "tier": 2
     },
     {
       "champ_name": "Varus",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Varus.JPG",
       "origin": ["Demon"],
       "champ_class": ["Ranger"],
       "tier": 2
     },
     {
       "champ_name": "Zed",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Zed.JPG",
       "origin": ["Ninja"],
       "champ_class": ["Assassin"],
       "tier": 2
     },
     {
       "champ_name": "Aatrox",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Aatrox.JPG",
       "origin": ["Demon"],
       "champ_class": ["Blademaster"],
       "tier": 3
     },
     {
       "champ_name": "Ashe",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Ashe.JPG",
       "origin": ["Glacial"],
       "champ_class": ["Ranger"],
       "tier": 3
     },
     {
       "champ_name": "Evelynn",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Evelynn.JPG",
       "origin": ["Demon"],
       "champ_class": ["Assassin"],
       "tier": 3
     },
     {
       "champ_name": "Gangplank",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Gangplank.JPG",
       "origin": ["Pirate"],
       "champ_class": ["Blademaster", "Gunslinger"],
       "tier": 3
     },
     {
       "champ_name": "Katarina",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Katarina.JPG",
       "origin": ["Imperial"],
       "champ_class": ["Assassin"],
       "tier": 3
     },
     {
       "champ_name": "Kennen",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Kennen.JPG",
       "origin": ["Ninja", "Yordle"],
       "champ_class": ["Elementalist"],
       "tier": 3
     },
     {
       "champ_name": "Morgana",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Morgana.JPG",
       "origin": ["Demon"],
       "champ_class": ["Sorcerer"],
       "tier": 3
     },
     {
       "champ_name": "Poppy",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Poppy.JPG",
       "origin": ["Yordle"],
       "champ_class": ["Knight"],
       "tier": 3
     },
     {
       "champ_name": "Rengar",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Rengar.JPG",
       "origin": ["Wild"],
       "champ_class": ["Assassin"],
       "tier": 3
     },
     {
       "champ_name": "Shyvana",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Shyvana.JPG",
       "origin": ["Dragon"],
       "champ_class": ["Shapeshifter"],
       "tier": 3
     },
     {
       "champ_name": "Veigar",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Veigar.JPG",
       "origin": ["Yordle"],
       "champ_class": ["Sorcerer"],
       "tier": 3
     },
     {
       "champ_name": "Volibear",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Volibear.JPG",
       "origin": ["Glacial"],
       "champ_class": ["Brawler"],
       "tier": 3
     },
     {
       "champ_name": "Akali",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Akali.JPG",
       "origin": ["Ninja"],
       "champ_class": ["Assassin"],
       "tier": 4
     },
     {
       "champ_name": "Aurelion Sol",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Aurelion Sol.JPG",
       "origin": ["Dragon"],
       "champ_class": ["Sorcerer"],
       "tier": 4
     },
     {
       "champ_name": "Brand",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Brand.JPG",
       "origin": ["Demon"],
       "champ_class": ["Elementalist"],
       "tier": 4
     },
     {
       "champ_name": "Cho'Gath",
-      "img": "./images/Darius.JPG",
+      "img": "/images/ChoGath.JPG",
       "origin": ["Void"],
       "champ_class": ["Brawler"],
       "tier": 4
     },
     {
       "champ_name": "Draven",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Draven.JPG",
       "origin": ["Imperial"],
       "champ_class": ["Blademaster"],
       "tier": 4
     },
     {
       "champ_name": "Gnar",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Gnar.JPG",
       "origin": ["Wild", "Yordle"],
       "champ_class": ["Shapeshifter"],
       "tier": 4
     },
     {
       "champ_name": "Kindred",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Kindred.JPG",
       "origin": ["Phantom"],
       "champ_class": ["Ranger"],
       "tier": 4
     },
     {
       "champ_name": "Leona",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Leona.JPG",
       "origin": ["Noble"],
       "champ_class": ["Guardian"],
       "tier": 4
     },
     {
       "champ_name": "Sejuani",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Sejuani.JPG",
       "origin": ["Glacial"],
       "champ_class": ["Knight"],
       "tier": 4
     },
     {
       "champ_name": "Anivia",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Anivia.JPG",
       "origin": ["Glacial"],
       "champ_class": ["Elementalist"],
       "tier": 5
     },
     {
       "champ_name": "Karthus",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Karthus.JPG",
       "origin": ["Phantom"],
       "champ_class": ["Sorcerer"],
       "tier": 5
     },
     {
       "champ_name": "Kayle",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Kayle.JPG",
       "origin": ["Noble"],
       "champ_class": ["Knight"],
       "tier": 5
     },
     {
       "champ_name": "Miss Fortune",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Miss Fortune.JPG",
       "origin": ["Pirate"],
       "champ_class": ["Gunslinger"],
       "tier": 5
     },
     {
       "champ_name": "Swain",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Swain.JPG",
       "origin": ["Imperial", "Demon"],
       "champ_class": ["Shapeshifter"],
       "tier": 5
     },
     {
       "champ_name": "Yasuo",
-      "img": "./images/Darius.JPG",
+      "img": "/images/Yasuo.JPG",
       "origin": ["Exile"],
       "champ_class": ["Blademaster"],
       "tier": 5
