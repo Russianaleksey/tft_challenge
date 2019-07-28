@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.scss';
 import ClassDisplay from './Components/ClassDisplay'
 import ChampDisplay from './Components/ChampDisplay'
+import flipCards from './Components/ChampDisplay'
 const App = () => {
 
   const [champs, setChamps] = useState([])
@@ -362,7 +363,7 @@ const App = () => {
 
   const selectRandom = () => {
     let holdArr = []
-    setChamps([null])
+    flipCards([null])
     for (let i = 0; i < 7; i++) {
       let randChamp = Math.floor(Math.random() * Math.floor(champlist.length))
       let resultingChamp = champlist[randChamp]
