@@ -2,18 +2,6 @@
 import React from 'react'
 
 const ChampDisplay = ({ champ_name, img, origin, champ_class, tier }) => {
-    
-    function classToggle(element) {
-        if(document.getElementById(element).className == "card") {
-            document.getElementById(element).className = "card is-flipped";
-        }
-        else {
-            document.getElementById(element).className = "card";
-        }
-    }
-    
-    
-
     return (
         <div className={"champ-display"}>
             <div id={champ_name} className="card" onClick={() => classToggle(champ_name)}>
@@ -24,9 +12,13 @@ const ChampDisplay = ({ champ_name, img, origin, champ_class, tier }) => {
     )
 }
 
-export function flipCards() {
-    console.log("told ya")
-    document.getElementsByClassName("card is-flipped").className = "card";
+function classToggle(element) {
+    if(document.getElementById(element).className == "card") {
+        document.getElementById(element).className = "card is-flipped";
+    }
+    else {
+        document.getElementById(element).className = "card";
+    }
 }
 
 export default ChampDisplay
