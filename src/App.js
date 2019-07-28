@@ -364,6 +364,7 @@ const App = () => {
   const selectRandom = () => {
     let holdArr = []
     flipCards([null])
+    setChamps([null])
     for (let i = 0; i < 7; i++) {
       let randChamp = Math.floor(Math.random() * Math.floor(champlist.length))
       let resultingChamp = champlist[randChamp]
